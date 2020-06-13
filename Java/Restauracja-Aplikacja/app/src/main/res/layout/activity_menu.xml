@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tlo3"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar">
+
+        </include>
+
+
+        <TextView
+            android:id="@+id/menu_meal"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="italic"
+            android:textSize="40sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            tools:ignore="UselessParent">
+
+        <ListView
+            android:id="@+id/menu_names"
+            android:layout_weight="1"
+            android:textColor="@color/White"
+            android:scrollbars="none"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            tools:ignore="NestedScrolling" />
+
+        <ListView
+            android:id="@+id/menu_prices"
+            android:layout_weight="4"
+            android:textColor="@color/White"
+            android:scrollbars="none"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            tools:ignore="NestedScrolling" />
+
+        </TableRow>
+
+
+</LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+2020-04-21 11:46:46.530 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 11:47:50.263 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 11:57:12.988 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 12:02:12.462 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 12:03:26.056 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 12:08:33.729 +02:00 [INF] Uruchomiono aplikację
+2020-04-21 12:10:05.294 +02:00 [INF] Uruchomiono aplikację
